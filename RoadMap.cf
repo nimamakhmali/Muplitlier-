@@ -1,0 +1,4 @@
+git v 4
+file . "step1.vhdl" "316e8af614be38f84c2976183a172bf9cecd1921" "20241125163438.251":
+  entity and_gate at 1( 0) + 0 on 11;
+  architecture struct of and_gate at 13( 194) + 4 on 12;
