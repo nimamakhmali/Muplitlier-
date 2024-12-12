@@ -1,0 +1,7 @@
+v 4
+file . "or_gate.vhdl" "ca4142aafd7008d9dc2dd912eb0e5566a6bf5c76" "20241212092133.381":
+  entity or_gate at 1( 0) + 0 on 13;
+  architecture structural of or_gate at 12( 177) + 0 on 14;
+file . "full_adder.vhdl" "0478645c000e9a8d83cfd6af21c86765c9e3309c" "20241212092108.880":
+  entity full_adder at 1( 0) + 0 on 11;
+  architecture structural of full_adder at 12( 187) + 0 on 12;
