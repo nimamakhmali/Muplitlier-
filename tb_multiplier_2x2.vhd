@@ -14,16 +14,16 @@ architecture behavioral of tb_multiplier_2x2 is
         );
     end component;
     
-    signal A: STD_LOGIC_VECTOR(1 downto 0): = (others =>'0');
-    signal B: STD_LOGIC_VECTOR(1 downto 0): = (others =>'0');   
-    signal C: STD_LOGIC_VECTOR(3 downto 0);
+    signal A_tb: STD_LOGIC_VECTOR(1 downto 0): = (others =>'0');
+    signal B_tb: STD_LOGIC_VECTOR(1 downto 0): = (others =>'0');   
+    signal C_tb: STD_LOGIC_VECTOR(3 downto 0);
 
     begin
 
         uut:multiplier_2x2 port map(
-            A => A;
-            B => B;
-            C => C;
+            A => A_tb;
+            B => B_tb;
+            C => C_tb;
         );
 
     end architecture;        
