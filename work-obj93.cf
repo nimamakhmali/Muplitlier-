@@ -1,10 +1,16 @@
 v 4
-file . "multiplier_2x2.vhd" "8a5efe08d95d6fea027810d0aea9d0cb73d99c6f" "20241219134215.005":
-  entity multiplier_2x2 at 1( 0) + 0 on 15;
-  architecture behavioral of multiplier_2x2 at 12( 242) + 0 on 16;
-file . "full_adder.vhdl" "0478645c000e9a8d83cfd6af21c86765c9e3309c" "20241212092108.880":
-  entity full_adder at 1( 0) + 0 on 11;
-  architecture structural of full_adder at 12( 187) + 0 on 12;
+file . "multiplier_4x4_with_2x2.vhd" "5a22bdabc70f0f78b022e1d077714a6f2dc694a4" "20250130143525.621":
+  entity multiplier_4x4 at 1( 0) + 0 on 17;
+  architecture structural of multiplier_4x4 at 12( 242) + 0 on 18;
 file . "or_gate.vhdl" "ca4142aafd7008d9dc2dd912eb0e5566a6bf5c76" "20241212092133.381":
   entity or_gate at 1( 0) + 0 on 13;
   architecture structural of or_gate at 12( 177) + 0 on 14;
+file . "full_adder.vhdl" "0478645c000e9a8d83cfd6af21c86765c9e3309c" "20241212092108.880":
+  entity full_adder at 1( 0) + 0 on 11;
+  architecture structural of full_adder at 12( 187) + 0 on 12;
+file . "multiplier_2x2.vhd" "8a5efe08d95d6fea027810d0aea9d0cb73d99c6f" "20241219134215.005":
+  entity multiplier_2x2 at 1( 0) + 0 on 15;
+  architecture behavioral of multiplier_2x2 at 12( 242) + 0 on 16;
+file . "tb_multiplier_4x4_with_2x2.vhd" "e832f6de75956c722d45b888e58fe27b1f2e013c" "20250130143947.863":
+  entity multiplier_4x4_tb at 1( 0) + 0 on 21;
+  architecture structural of multiplier_4x4_tb at 8( 122) + 0 on 22;
